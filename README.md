@@ -34,9 +34,9 @@ ACM Transactions on Graphics (Proc. SIGGRAPH) 28(3), August 2009. [PatchMatch](h
 
 ## Some Results
 
-### Task #1: Painterly Rendering 3D Models
+### Task #1: Painterly Rendering 3D Models (Non-photorealistic Rendering)
 
-![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/results/2.jpg)
+![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/figures/2.jpg)
 
 ### Task #2: Lanscape Painting
 
