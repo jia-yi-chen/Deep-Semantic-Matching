@@ -34,7 +34,7 @@ A PYTHON implementation of master thesis "". will be uploaded soon.
 
 * robust to input photos containing a lot of sunlight (e.g., drawing sky)
 
-![image](https://github.com/jia-yi-chen/Deep-Sementic-Matching/blob/master/results/1.jpg)
+![image](https://github.com/jia-yi-chen/Deep-Semantic-Matching/blob/master/results/1.jpg)
 
 
 ### Task: Painterly Rendering (3D Model => Artistic Image)
