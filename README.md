@@ -33,10 +33,10 @@ ACM Transactions on Graphics (Proc. SIGGRAPH) 28(3), August 2009. [PatchMatch](h
 
 ### Task #1: Painterly Rendering 3D Models
 
-![image](https://github.com/jia-yi-chen/Deep-Semantic-Matching/blob/master/results/2.jpg)
+![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/results/2.jpg)
 
 ### Task #2: Lanscape Painting
 
 * robust to input photos containing a lot of sunlight (e.g., drawing sky)
 
-![image](https://github.com/jia-yi-chen/Deep-Semantic-Matching/blob/master/results/1.jpg)
+![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/results/1.jpg)
