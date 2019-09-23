@@ -12,7 +12,7 @@ This method can preserve the illumination and scene structure of the input photo
 * pytorch 1.0+
 * matlab
 
-## Files
+## Getting Started
 
 * Photo images and style images: "/inputs/inputs/"
 * Illumination maps:  "/inputs/inputs_semlight/"
