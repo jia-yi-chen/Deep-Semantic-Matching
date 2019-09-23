@@ -1,19 +1,25 @@
-# Illumination-guided Non-photorealistic Neural Style Transfer
+# Illumination-guided Neural Style Transfer
 
-A semi-supervised learning method.
-The code Providing lighting maps for input images, to guide the correct drawing style (stroke, colow, texture) to put on correct place.
-Doing PatchMatch on 
-calculating lighting context.
+This method is able to generate fine artworks for the following subjects:
+* 3D models which include a digital real-world scene or an object;
+* 2D photos which contain a lot of sunlight or complex lighting conditions, such as lanscapes, sky, natural objects, and etc.
 
-* good to express lighting , 
-* good to protect scene structure, because of protection of lighting
-* good to draw lanscapes, sky, and human faces
-This is a PYTHON implementation of of master thesis "". will be uploaded soon.
+This method can preserve the illumination and scene structure of the input photos, during the process of neural style transfer.
 
 ## Requirements
 
 * python 3
 * pytorch 1.0+
+* matlab
+
+## Files
+
+* Photo images and style images: "/inputs/inputs/"
+* Illumination maps:  "/inputs/inputs_semlight/"
+* output artworks (there are some results examples in it): "/outputs/STYLE_NAME/"
+* codes in the folder "/IIumination_matlab/" are used for calculating illumination maps
+* codes in the folder "/image_analogy/" are models and losses used for illumination-guided neural style transfer, built upon [neural image analogies](https://github.com/awentzonline/image-analogies) by Adam Wentz.
+* main function: "/scripts/main.py"
 
 ## References
 
@@ -24,6 +30,7 @@ This is a PYTHON implementation of of master thesis "". will be uploaded soon.
 5. Connelly Barnes, Eli Shechtman, Adam Finkelstein, and Dan B Goldman.
 **PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing**.
 ACM Transactions on Graphics (Proc. SIGGRAPH) 28(3), August 2009. [PatchMatch](https://gfx.cs.princeton.edu/pubs/Barnes_2009_PAR/index.php)
+6. The codes in "image analogies" folder is built based on [neural image analogies](https://github.com/awentzonline/image-analogies) by Adam Wentz.
 
 ## Some Results
 
@@ -35,4 +42,4 @@ ACM Transactions on Graphics (Proc. SIGGRAPH) 28(3), August 2009. [PatchMatch](h
 
 * robust to input photos containing a lot of sunlight (e.g., drawing sky)
 
-![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/results/1.jpg)
+![image](https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer/blob/master/figures/1.jpg)
